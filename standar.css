@@ -1,0 +1,19 @@
+body {  background: url(background.jpg)repeat center;
+}
+
+#X00WrapperLogin, #X00WrapperMain {
+  margin: 20px auto;
+ width: 700px;
+}
+#X00ImageHeader {
+  max-width: 300px;
+}
+@media (max-width: 767px) {  #X00WrapperLogin, #X00WrapperMain {
+  width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  #X00WrapperLogin, #X00WrapperMain {
+  width: 95%;
+  }
+}
